@@ -1,0 +1,26 @@
+{
+  "name": "redis_nodejs",
+  "version": "1.0.0",
+  "description": "Using Redis with NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwuniard/redis_nodejs.git"
+  },
+  "keywords": [
+    "redis",
+    "nodejs"
+  ],
+  "author": "Ronson Wuniardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwuniard/redis_nodejs/issues"
+  },
+  "homepage": "https://github.com/rwuniard/redis_nodejs#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
