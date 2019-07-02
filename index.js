@@ -21,6 +21,14 @@ client.get('my test key', (error, result) => {
     console.log('GET result ->' + result);
 });
 
+test();
+
+function test () {
+    client.incr('mycounter', (error, result) => {
+        console.log('mycounter:' + result);
+    });
+}
+
 // client.get('myid', (error, result) => {
 //     if (error) {
 //         console.log(error);
