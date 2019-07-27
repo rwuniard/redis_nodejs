@@ -9,6 +9,7 @@ Using Redis in NodeJs
 4. or you can create another container for the client redis
   - docker run -it --rm --link redis1:myredis --name client1 redis sh
   - redis-cli -h myredis
-5. Run the code -> node index
+5. Install redis module -> npm install redis
+6. Run the code -> node index
 
 This should set the "my test key" and retrieve the value "my test value".
