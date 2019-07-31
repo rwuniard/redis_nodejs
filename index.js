@@ -28,7 +28,7 @@ function test () {
         console.log('mycounter:' + result);
     });
 }
-
+//
 // client.get('myid', (error, result) => {
 //     if (error) {
 //         console.log(error);
